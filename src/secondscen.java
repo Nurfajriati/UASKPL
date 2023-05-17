@@ -14,7 +14,7 @@ public static void main(String[] args) throws MalformedURLException {
 		//Klik pada "First Number"
 		driver.findElementById("com.example.kalkulator:id/text").click();
 		
-		//Mengisi input angka pertama
+		//Mengosongkan inputan "First Number"
 		driver.findElementById("com.example.kalkulator:id/text").sendKeys("");
 		
 		//Klik pada "Second Number"

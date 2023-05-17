@@ -8,6 +8,9 @@ public class firstscen extends base{
 		
 		AndroidDriver<AndroidElement> driver = capabilities();
 		
+		/*Pada test ini yaitu mengharapkan bahwa input dan hasilnya sesuai dengan yang diinginkan
+		 */
+		
 		//Klik pada "First Number"
 		driver.findElementById("com.example.kalkulator:id/text").click();
 		
